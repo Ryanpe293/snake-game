@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 16px;
+    background-color: rgb(56, 16, 94);
+    -webkit-text-fill-color: rgb(115, 255, 0);
+}
+
+#tela{
+    background-image: url(https://th.bing.com/th/id/OIP.bhDmYhr10DwVF_7Eko6VKgHaHa?rs=1&pid=ImgDetMain);
+    margin: 0 auto;
+    display: block;
+    border: 5px solid greenyellow;
+    
+}
+
+#painel-controle{
+    text-align: center;
+}  

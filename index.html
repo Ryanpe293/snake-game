@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="/src/css/estilo.css">
+</head>
+<body>
+    <h1>Cobrinha</h1>
+
+    <canvas id="tela" width="400" height="400">seu navegador não suporta Canvas e HTML</canvas>
+
+    <div id="painel-controle">
+        <label for="dificuldade">Dificuldade</label>
+        <select id = "dificuldade">
+            <option value="facil">facil</option>
+            <option value="medio" selected>Medio</option>
+            <option value="dificil">Lendario</option>
+        </select>
+        <button onclick="IniciarJogo()">Iniciar Jogo</button>
+        <p>Pontuação <span id="pontuacao">0</span></p>
+    </div>
+
+</body>
+    <script src="/src/js/jogo.js"></script>
+</html>
