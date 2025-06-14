@@ -3,7 +3,7 @@
     padding: 0;
     text-align: center;
     margin-top: 16px;
-    background-color: rgb(56, 16, 94);
+    background-image: url(https://th.bing.com/th/id/R.78c28d33d9b260ee3d1d16a1bd2e897b?rik=W%2byX0mSc3EQzUA&pid=ImgRaw&r=0);
     -webkit-text-fill-color: rgb(115, 255, 0);
 }
 
@@ -17,4 +17,9 @@
 
 #painel-controle{
     text-align: center;
+    
 }  
+
+#dificuldade{
+     text-align: center;
+}
